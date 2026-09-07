@@ -45,7 +45,7 @@ crawler-projects/
 │   └── lianjia_project/
 │       ├── exporters.py / items.py / middlewares.py / pipelines.py / settings.py
 │       └── spiders/lianjia.py
-├── selenium-douban-login/ # 项目 5：豆瓣登录流程演示（验证码人工完成）
+├── selenium-douban-login/ # 项目 5：豆瓣滑块验证码自动登录
 ├── selenium-baidu-map/    # 项目 6：百度地图公交路线查询
 └── selenium-bilibili/     # 项目 7：B 站 UP 主代表作采集
 ```

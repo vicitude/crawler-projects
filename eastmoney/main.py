@@ -13,7 +13,7 @@ from data_header import Stock_Info_Least, Stock_Info_History, Sector_Info, write
 def get_stock_sector_list(stock_code,page_size=50):
 
 
-    url = f"https://push2.eastmoney.com/api/qt/slist/get?fltt=1&invt=2&cb=jQuery351001477480648310936_1787154563964&fields=f14%2Cf12%2Cf13%2Cf3%2Cf152%2Cf4%2Cf128%2Cf140%2Cf141&secid=1.{stock_code}&ut=<anti_token>&pi=0&po=1&np=1&pz={page_size}&spt=3&wbp2u=%7C0%7C0%7C0%7Cweb&_=1787154563965"
+    url = f"https://push2.eastmoney.com/api/qt/slist/get?fltt=1&invt=2&cb=jQuery351001477480648310936_1787154563964&fields=f14%2Cf12%2Cf13%2Cf3%2Cf152%2Cf4%2Cf128%2Cf140%2Cf141&secid=1.{stock_code}&ut=fa5fd1943c7b386f172d6893dbfba10b&pi=0&po=1&np=1&pz={page_size}&spt=3&wbp2u=%7C0%7C0%7C0%7Cweb&_=1787154563965"
 
     payload = {}
     headers = {
@@ -212,7 +212,7 @@ def get_stock_list(market_tpye,page_num):
     print(f"请求页码：{page_num}")
     #1:请求列表api
 
-    url = f"https://pushguest.eastmoney.com/api/qt/clist/get?timil=1&np=1&fltt=1&invt=2&cb=jQuery371010638135809202687_1787131015272&fs={market_tpye}&fields=f12,f13,f14,f1,f2,f4,f3,f152,f5,f6,f7,f15,f18,f16,f17,f10,f8,f9,f23&fid=f3&pn={page_num}&pz=20&po=1&dect=1&ut=<anti_token>&wbp2u=|0|0|0|web&_=1787131015280"
+    url = f"https://pushguest.eastmoney.com/api/qt/clist/get?timil=1&np=1&fltt=1&invt=2&cb=jQuery371010638135809202687_1787131015272&fs={market_tpye}&fields=f12,f13,f14,f1,f2,f4,f3,f152,f5,f6,f7,f15,f18,f16,f17,f10,f8,f9,f23&fid=f3&pn={page_num}&pz=20&po=1&dect=1&ut=fa5fd1943c7b386f172d6893dbfba10b&wbp2u=|0|0|0|web&_=1787131015280"
 
     payload = {}
     headers = {

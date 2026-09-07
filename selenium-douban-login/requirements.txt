@@ -1,1 +1,4 @@
 selenium>=4.11
+opencv-python
+Pillow
+curl_cffi
