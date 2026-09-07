@@ -46,8 +46,15 @@ Thumbs.db
 **/*.csv
 **/logs/
 
+# Selenium 浏览器资料与运行产物
+**/SeleniumChrome_*/
+**/chrome-profile/
+**/map_images/
+**/slider_images/
+
 # 敏感信息
 **/爬虫数据项.txt
+**/数据项.txt
 .env
 .env.local
 *.local
