@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 测试 / 缓存
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+.cache
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# 运行日志
+*.log
+
+# Scrapy 运行产物
+**/data/images/full/
+**/*.jsonl
+**/*.csv
+**/logs/
+
+# 敏感信息
+**/爬虫数据项.txt
+.env
+.env.local
+*.local
